@@ -11,6 +11,12 @@
       "password": "1232131",
       "email": "Dragon@gmail.com",
       "id": 2
+    },
+    {
+      "name": "Naruto",
+      "password": "Naruto123",
+      "email": "Naruto@hiddenleaf.com",
+      "id": 3
     }
   ]
 }
