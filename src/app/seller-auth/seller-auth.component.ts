@@ -1,3 +1,4 @@
+import { singUp } from './../dataTypes';
 import { Component, OnInit } from '@angular/core';
 import { SellerService } from '../services/seller.service';
 import { Router } from '@angular/router';
@@ -10,7 +11,7 @@ export class SellerAuthComponent implements OnInit {
   constructor(private seller: SellerService, private router: Router) {}
 
   ngOnInit(): void {}
-  singUP(data: object) {
+  singUP(data: singUp) {
     console.log(data);
     this.seller.userSignUp(data).subscribe((result) => {
       console.log(result);
