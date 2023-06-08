@@ -17,6 +17,12 @@
       "password": "Naruto123",
       "email": "Naruto@hiddenleaf.com",
       "id": 3
+    },
+    {
+      "name": "Erik",
+      "password": "Eiki1212",
+      "email": "Erik@wwe.com",
+      "id": 4
     }
   ]
 }
